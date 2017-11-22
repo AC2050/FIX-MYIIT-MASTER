@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end reset*/
+
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 100%;
+	/*1.2 modular scale ratio*/
+	background: url("https://ac2050.github.io/itmd362-fa2017-project1/photos/wild-sea.png");
+	background-repeat: repeat;
+}
+
+header {
+	text-align: center;
+	font-weight: bold;
+	margin: 2em auto 1em auto;
+}
+
+h1 {
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 20em;
+	background-color: #f5e450;
+	border: 0.05em solid black;
+	padding: 0.5em 0;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#formContainer {
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+fieldset {
+	border: 0.05em solid black;
+	background-color: #f5e450;
+}
+
+fieldset h3 {
+	background-color: #f5e450;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.fields {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.labels {
+	display: block;
+	box-sizing: border-box;
+	margin: 0.5em auto 1em auto;
+	font-size: 1.2em;
+	width: 16em;
+}
+
+#first {
+	margin-top: 0.5em;
+}
+
+.labels input{
+	display: block;
+	box-sizing: border-box;
+	margin: 0.5em auto 1em auto;
+	font-size: 1em;
+	width: 16em;
+}
+
+#submit{
+	margin: 0.2em auto 1em auto;
+	text-align: center;
+	display: block;
+	font-size: 1.2em;
+}
+
+.hide {
+	visibility: hidden;
+	position: absolute;
+}
