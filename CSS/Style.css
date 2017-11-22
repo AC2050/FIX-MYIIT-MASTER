@@ -61,25 +61,14 @@ body {
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 100%;
 	/*1.2 modular scale ratio*/
-	background: url("https://ac2050.github.io/itmd362-fa2017-project1/photos/wild-sea.png");
-	background-repeat: repeat;
 }
 
 header {
-	text-align: center;
-	font-weight: bold;
-	margin: 2em auto 1em auto;
+	
 }
 
 h1 {
-	display: block;
-	margin: 0 auto 0 auto;
-	max-width: 20em;
-	background-color: #f5e450;
-	border: 0.05em solid black;
-	padding: 0.5em 0;
-	text-align: center;
-	font-size: 1.8em;
+
 }
 
 #formContainer {
@@ -88,17 +77,14 @@ h1 {
 	margin-right: auto;
 }
 
-fieldset {
-	border: 0.05em solid black;
-	background-color: #f5e450;
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
 }
 
-fieldset h3 {
-	background-color: #f5e450;
-	text-align: center;
-	padding-top: 1em;
-	font-size: 1.5em;
-	font-weight: bold;
+fieldset {
+
 }
 
 .fields {
@@ -115,9 +101,7 @@ fieldset h3 {
 	width: 16em;
 }
 
-#first {
-	margin-top: 0.5em;
-}
+
 
 .labels input{
 	display: block;
@@ -132,9 +116,4 @@ fieldset h3 {
 	text-align: center;
 	display: block;
 	font-size: 1.2em;
-}
-
-.hide {
-	visibility: hidden;
-	position: absolute;
 }
