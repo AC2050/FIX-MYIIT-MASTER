@@ -58,7 +58,7 @@ table {
 /*end reset*/
 
 body {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	/*1.2 modular scale ratio*/
 }
@@ -67,8 +67,11 @@ header {
 	
 }
 
-h1 {
-
+#lh1 {
+	display: block;
+	margin: 1.6em auto 0 auto;
+	text-align: center;
+	font-size: 1.8em;
 }
 
 #formContainer {
@@ -79,16 +82,18 @@ h1 {
 
 #logo {
 	display: block;
-	margin-left: auto;
-	margin-right:auto;
+	margin: 1.6em auto 0em auto;
 }
 
-fieldset {
-
+fieldset a{
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto 2em auto;
+	text-align:center
 }
 
 .fields {
-	display: inline-block;
+	display: block;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -96,9 +101,10 @@ fieldset {
 .labels {
 	display: block;
 	box-sizing: border-box;
-	margin: 0.5em auto 1em auto;
+	margin: 1.6em auto 0.4em auto;
 	font-size: 1.2em;
 	width: 16em;
+	text-align:center
 }
 
 
@@ -106,14 +112,19 @@ fieldset {
 .labels input{
 	display: block;
 	box-sizing: border-box;
-	margin: 0.5em auto 1em auto;
+	margin: 0.2em auto 0 auto;
 	font-size: 1em;
 	width: 16em;
 }
 
 #submit{
-	margin: 0.2em auto 1em auto;
+	width: 5em;
+	margin: auto;
+	border: 0.1em solid white;
+	border-radius: 2em;
 	text-align: center;
 	display: block;
 	font-size: 1.2em;
+	background-color: red;
+	color: white;
 }
