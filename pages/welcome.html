@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>Welcome My IIT</title>
+  <link href="../CSS/Normalize.css"
+    rel="stylesheet" type="text/css">
+  <link href="../CSS/Style.css" 
+    type='text/css' rel='stylesheet'>
 </head>
 
 <body>
-  <img src="images/myiit.png" alt="banner"> 
-  <h1> Welcome </h1>
-  <h4> You are currently logged in. </h4>
-  
-  <nav> 
-    <div id="tab">
+  <div id="welc">
+    <img src="../images/myiitlogo.png" alt="logo"> 
+  </div>
+  <div id="base">
+    <a href="welcome.html">help</a>
+    <a>|</a>
+    <a href="../index.html">logout</a>
+  </div>
+  <nav id="topbar"> 
       <ul>
-        <li><a href="welcome.html"> Welcome </a></li>
+        <li><a class="active" href="welcome.html"> Welcome </a></li>
         <li><a href="welcome.html"> Academics </a></li>
         <li><a href="welcome.html"> Student Life </a></li>
         <li><a href="welcome.html"> Finances </a></li>
@@ -23,25 +30,66 @@
         <li><a href="welcome.html"> My Stuff </a></li>
         <li><a href="welcome.html"> Training and Support </a></li>
       </ul>
-    </div>  
   </nav>
-  
-  <nav>
-    <div id="top_bar">
+ <div id="cont">
+  <div id="jsmenu"> 
+    <nav>
       <ul>
-        <li><a href="welcome.html"> Manage My Account </a></li>
-        <li><a href="welcome.html"> VCL </a></li>
-        <li><a href="welcome.html"> Google Apps for Students </a></li>
-        <li><a href="welcome.html"> Blackboard </a></li>
-        <li><a href="welcome.html"> Hawk LInk </a></li>
-        <li><a href="welcome.html"> Ots Support </a></li>
-        <li><a href="welcome.html"> Library e-resources </a></li>
-        <li><a href="welcome.html"> Center for Disability Resources </a></li>
-      </ul>
-    </div>  
-  </nav>
-  
-  <!--<h3> Quick Links </h3> 
-  <class id="quicklinks"> -->
+        <li>
+          <img src="../images/icon_manage_account.gif">
+          <a href="welcome.html"> Manage My Account </a></li>
+        <li>
+          <img src="../images/virtual_com.png">
+          <a href="welcome.html"> VCL </a></li>
+        <li>
+          <img src="../images/g_apps.gif">
+          <a href="welcome.html"> Google Apps for Students </a></li>
+        <li>
+          <img src="../images/icon_bb.gif">
+          <a href="welcome.html"> Blackboard </a></li>
+        <li>
+          <img src="../images/icon_hawklink.gif">
+          <a href="welcome.html"> Hawk LInk </a></li>
+        <li>
+          <img src="../images/icon_support.gif">
+          <a href="welcome.html"> Ots Support </a></li>
+        <li>
+          <a href="welcome.html"><img src="../images/icon_library.gif"></a>
+          <a href="welcome.html"> Library e-resources </a></li>
+        <li>
+          <a href="welcome.html"><img src="../images/cdr.jpg"></a>
+          <a href="welcome.html"> Center for Disability Resources </a></li>
+        </ul>
+      </nav>
+    </div> 
+    <h1 id="wh1"> Welcome </h1> 
+    <div id="QL">   
+      <h2 class="h2p">Quick Links</h2> 
+      <a href="welcome.html">Add/Drop Classes</a>
+      <a href="welcome.html">Register</a>
+      <a href="syllabus.html">Class Schedule</a>
+      <a href="welcome.html">DegreeWorks</a>
+    <h2 class="h2p">IIT News<h2>
+    <div id="news">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete. 
+        Omnia contraria, quos etiam insanos esse vultis.
+
+        Isto modo ne improbos quidem, si essent boni viri. Videsne, ut haec concinant? Quodcumque 
+        in mentem incideret, et quodcumque tamquam occurreret. Aut unde est hoc contritum vetustate 
+        proverbium: quicum in tenebris? Videamus animi partes, quarum est conspectus illustrior; 
+        Graecis hoc modicum est: Leonidas, Epaminondas, tres aliqui aut quattuor;
+
+        Prioris generis est docilitas, memoria; Huius ego nunc auctoritatem sequens idem faciam. 
+        Ita prorsus, inquam; Nihil enim hoc differt. Potius ergo illa dicantur: turpe esse, viri 
+        non esse debilitari dolore, frangi, succumbere. Idem iste, inquam, de voluptate quid sentit? 
+        Laelius clamores sofòw ille so lebat Edere compellans gumias ex ordine nostros. Dici enim 
+        nihil potest verius. An, partus ancillae sitne in fructu habendus, disseretur inter principes 
+        civitatis, P. 
+      </p>
+      </div>
+    </div>
+  </div>
  </body>
+ 
  </html>

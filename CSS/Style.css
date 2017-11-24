@@ -74,6 +74,18 @@ header {
 	font-size: 1.8em;
 }
 
+#wh1 {
+	display: block;
+	margin: auto;
+	width: auto;
+	float: center;
+	text-align: center;
+	padding: 0.6em 0;
+	font-size: 2.2em;
+	font-weight: bold;
+	color: #b70101;
+}
+
 #formContainer {
 	max-width: 30em;
 	margin-left: auto;
@@ -127,4 +139,123 @@ fieldset a{
 	font-size: 1.2em;
 	background-color: red;
 	color: white;
+}
+
+nav {
+	width: 100%;
+	height: auto;
+	font-size: 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #b70101;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	clear: both;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.2em 0.6em;
+	text-decoration: none;
+	color: white;
+	transition: .2s background-color;
+}
+
+nav li {
+	display: inline;
+	padding: 0.6em;
+}
+
+#topbar a:hover {
+	background-color: black;
+}
+
+.active {
+	background-color: black;
+}
+
+#jsmenu nav{
+	width: 12em;
+	height: auto;
+	float: left;
+	background-color: white;
+}
+
+#jsmenu li {
+	display: block;
+	padding: 0;
+}
+
+#jsmenu li a {
+	width: 100%;
+	padding: 0 0 0.6em 0;
+	color: #b70101;
+}
+
+#jsmenu img {
+	padding-top: 0.8em;
+}
+
+#jsmenu a:hover {
+	
+}
+
+#base {
+	width: 20em;
+	hight: 1em;
+	float: right;
+	text-align: right;
+	padding-right: 1em;
+	display: inline-block;
+}
+
+#welc {
+	width: 30em;
+	float: left;
+}
+
+#cont {
+	clear: both;
+}
+
+#welc h1 {
+	float: right;
+}
+
+#QL {
+	display: block;
+	margin: auto;
+	width: auto;
+	float: center;
+	text-align: center;
+	padding-left: 12em;
+}
+
+.h2p {
+	font-size: 1.4em;
+	padding: 0.8em;
+	text-align: center;
+}
+
+#QL a {
+	width: 15em;
+	height: auto;
+	padding: 0.75em;
+	margin: auto;
+	border: 0.1em solid white;
+	border-radius: 2em;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2em;
+	background-color: #b70101;
+	color: white;
+	text-decoration: none;
+}
+
+#news {
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
 }
