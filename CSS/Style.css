@@ -74,6 +74,18 @@ header {
 	font-size: 1.8em;
 }
 
+#wh1 {
+	display: block;
+	margin: auto;
+	width: auto;
+	float: center;
+	text-align: center;
+	padding: 0.6em 0;
+	font-size: 2.2em;
+	font-weight: bold;
+	color: #b70101;
+}
+
 #formContainer {
 	max-width: 30em;
 	margin-left: auto;
@@ -136,7 +148,7 @@ nav {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 	text-align: center;
-	background-color: red;
+	background-color: #b70101;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
@@ -164,6 +176,7 @@ nav a:hover {
 	width: 12em;
 	height: auto;
 	float: left;
+	background-color: white;
 }
 
 #jsmenu li {
@@ -173,20 +186,26 @@ nav a:hover {
 
 #jsmenu li a {
 	width: 100%;
-	padding: 0;
+	padding: 0 0 0.8em 0;
+	color: #b70101;
+}
+
+#jsmenu img {
+	padding-top: 0.8em;
 }
 
 #base {
-	width: 10em;
+	width: 20em;
+	hight: 1em;
 	float: right;
 	text-align: right;
 	padding-right: 1em;
+	display: inline-block;
 }
 
 #welc {
 	width: 30em;
 	float: left;
-	display: inline-block;
 }
 
 #welc h1 {
