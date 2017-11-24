@@ -128,3 +128,75 @@ fieldset a{
 	background-color: red;
 	color: white;
 }
+
+nav {
+	width: 100%;
+	height: auto;
+	font-size: 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: red;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	clear: both;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.2em 0.6em;
+	text-decoration: none;
+	color: white;
+	transition: .2s background-color;
+}
+
+nav li {
+	display: inline;
+	padding: 0.6em;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+#jsmenu nav{
+	width: 12em;
+	height: auto;
+	float: left;
+}
+
+#jsmenu li {
+	display: block;
+	padding: 0;
+}
+
+#jsmenu li a {
+	width: 100%;
+	padding: 0;
+}
+
+#base {
+	width: 10em;
+	float: right;
+	text-align: right;
+	padding-right: 1em;
+}
+
+#welc {
+	width: 30em;
+	float: left;
+	display: inline-block;
+}
+
+#welc h1 {
+	float: right;
+}
+
+#QL {
+	display: block;
+	margin: auto;
+	width: auto;
+	float: center;
+	text-align: center;
+}
