@@ -1,2 +1,7 @@
 # FIX-MYIIT-MASTER
 Master Repo for Project 2
+
+Austin Cheng Project 2 Turn-In
+1. I tried my best to follow conventions of human centered design but I was hampered by my own lack of css skills and I was unable to completely implement the dsigns I wanted to. I kep the login page simple and clean and created quick link buttons on the welcome page to keep the user experience as effortless as possible. I had hoped to implement some javascript for the sidebar utility buttons on the welcome page but that didn't pan out (see below). Overall in this class, I've leaned a lot about human-centered design and I see it (a bit of the good but mostly the bad) every time I visit a web page but my web development skills aren't quite good enough to put it into practice.
+
+2. My team was the worst I've ever had. Osman was tasked with creating the class schedule page and made it using inline css and breaks and tables. He pushed it to the master two days before the due date so I had no time to edit it to make it fit with the theme. Drveshkuman was tasked with the html for the welcome page and came up short with some basic wireframe that didn't even include all the elements I had asked for. I also spent at least a half-hour walking him through git to merge his work into the master. I tasked them both with giving me a basic javascript template based on your class demo and they both copped out with excuses. I created the login page, heavily worked on the welcome page, and did all the css for those two pages.
