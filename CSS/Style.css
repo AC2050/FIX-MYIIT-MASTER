@@ -168,7 +168,11 @@ nav li {
 	padding: 0.6em;
 }
 
-nav a:hover {
+#topbar a:hover {
+	background-color: black;
+}
+
+.active {
 	background-color: black;
 }
 
@@ -186,12 +190,16 @@ nav a:hover {
 
 #jsmenu li a {
 	width: 100%;
-	padding: 0 0 0.8em 0;
+	padding: 0 0 0.6em 0;
 	color: #b70101;
 }
 
 #jsmenu img {
 	padding-top: 0.8em;
+}
+
+#jsmenu a:hover {
+	
 }
 
 #base {
@@ -208,6 +216,10 @@ nav a:hover {
 	float: left;
 }
 
+#cont {
+	clear: both;
+}
+
 #welc h1 {
 	float: right;
 }
@@ -218,4 +230,32 @@ nav a:hover {
 	width: auto;
 	float: center;
 	text-align: center;
+	padding-left: 12em;
+}
+
+.h2p {
+	font-size: 1.4em;
+	padding: 0.8em;
+	text-align: center;
+}
+
+#QL a {
+	width: 15em;
+	height: auto;
+	padding: 0.75em;
+	margin: auto;
+	border: 0.1em solid white;
+	border-radius: 2em;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2em;
+	background-color: #b70101;
+	color: white;
+	text-decoration: none;
+}
+
+#news {
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
 }
