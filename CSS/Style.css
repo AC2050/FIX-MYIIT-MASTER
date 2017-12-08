@@ -261,3 +261,30 @@ nav li {
 	float: right;
     width: 80%;
 }
+
+/* sidebar js style */
+.has-toolbar body {
+	overflow-x: hidden;
+}
+
+#content {
+	transition: margin-left 1s;
+}
+
+.hasjs #movethis {
+	width: 100%;
+}
+
+.hasjs #jsmenu {
+	transition: none;
+	opacity: 0;
+	position: absolute;
+	top: 10em;
+	left: 5%;
+}
+
+.has-toolbar #jsmenu {
+	transition: opacity 1s 1s;
+	opacity: 1;
+}
+
