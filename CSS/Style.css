@@ -256,3 +256,8 @@ nav li {
 	margin: 0 auto;
 	text-align: justify;
 }
+
+#sched {
+	float: right;
+    width: 80%;
+}
