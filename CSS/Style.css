@@ -178,7 +178,7 @@ nav li {
 #jsmenu nav{
 	width: 12em;
 	height: auto;
-	float: left;
+	/*float: left;*/
 	background-color: white;
 }
 
