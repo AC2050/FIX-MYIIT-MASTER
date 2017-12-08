@@ -178,7 +178,6 @@ nav li {
 #jsmenu nav{
 	width: 12em;
 	height: auto;
-	/*float: left;*/
 	background-color: white;
 }
 
@@ -213,11 +212,11 @@ nav li {
 	width: 30em;
 	float: left;
 }
-
+/*
 #cont {
 	clear: both;
 }
-
+*/
 #welc h1 {
 	float: right;
 }
@@ -227,7 +226,6 @@ nav li {
 	margin: auto;
 	width: auto;
 	text-align: center;
-	padding-left: 12em;
 }
 
 .h2p {
@@ -258,8 +256,14 @@ nav li {
 }
 
 #sched {
-	float: right;
     width: 80%;
+}
+
+.jumpers {
+	padding: 1em 1em;
+	text-decoration: none;
+	width: 12em;
+	text-align: center;
 }
 
 /* sidebar js style */
@@ -267,24 +271,26 @@ nav li {
 	overflow-x: hidden;
 }
 
-#content {
-	transition: margin-left 1s;
-}
-
-.hasjs #movethis {
+.hasjs #cont {
 	width: 100%;
+	transition: margin-left 1s;
 }
 
 .hasjs #jsmenu {
 	transition: none;
 	opacity: 0;
-	position: absolute;
-	top: 10em;
-	left: 5%;
+	visibility: hidden;
 }
 
 .has-toolbar #jsmenu {
 	transition: opacity 1s 1s;
 	opacity: 1;
+	position: absolute;
+	top: 10em;
+	left: 1%;
+	visibility: visible;
 }
 
+.has-toolbar #cont{
+	margin-left: 12em;
+}
